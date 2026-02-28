@@ -42,11 +42,11 @@ const Index = () => {
         </div>
 
         {/* Right: 3 panels in grid */}
-        <div className="grid grid-rows-2 gap-4 min-h-0">
+        <div className="flex flex-col gap-4 overflow-y-auto">
           {/* Top: Scenario Comparison */}
           <ScenarioPanel optimizationMode={optimizationMode} />
           {/* Bottom: Results + Insights */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 min-h-0">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <OptimizationResultPanel optimizationMode={optimizationMode} />
             <InsightsPanel />
           </div>

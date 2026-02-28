@@ -53,7 +53,7 @@ const ScenarioPanel = ({ optimizationMode }: ScenarioPanelProps) => {
       </div>
 
       {/* Chart */}
-      <div className="flex-1 min-h-0">
+      <div className="h-[250px]">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={scenarios} margin={{ top: 5, right: 5, left: -10, bottom: 0 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="hsl(214 20% 90%)" />
