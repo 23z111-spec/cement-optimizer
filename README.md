@@ -41,10 +41,10 @@ An intelligent system is required to predict strength gain and optimize producti
 
 The framework combines:
 
-Supervised Machine Learning (XGBoost)
-Predicts concrete strength gain under varying parameters.
+**Supervised Machine Learning (XGBoost)**
+**Predicts concrete strength gain under varying parameters.**
 
-Multi-Objective Optimization (Genetic Algorithm / NSGA-II)
+**Multi-Objective Optimization (Genetic Algorithm / NSGA-II)**
 Identifies optimal trade-offs between:
 
 Cycle time
