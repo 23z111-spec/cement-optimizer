@@ -1,54 +1,146 @@
+**TEAM NAME: Crisp**
+
+**AI-Driven Multi-Objective Optimization Framework for Precast Cycle Management**
+Overview
+
+This project presents an AI-powered decision-support system designed to optimize cycle time in precast concrete yards.
+
+The solution integrates:
+
+Strength prediction using Machine Learning
+
+Multi-objective optimization
+
+Simulation-based production strategy evaluation
+
+It enables yard managers to reduce cost, minimize cycle time, and maintain required strength levels efficiently.
+
+**Problem Statement 1**
+
+In precast production, element cycle time (casting → curing → demoulding → reset) directly impacts:
+
+Yard capacity
+
+Project timeline
+
+Production cost
+
+Delays occur due to:
+
+Strength gain uncertainty
+
+Curing variations
+
+Mix design differences
+
+Operational constraints
+
+An intelligent system is required to predict strength gain and optimize production decisions.
+
+**Proposed Solution**
+
+The framework combines:
+
+Supervised Machine Learning (XGBoost)
+Predicts concrete strength gain under varying parameters.
+
+Multi-Objective Optimization (Genetic Algorithm / NSGA-II)
+Identifies optimal trade-offs between:
+
+Cycle time
+
+Cost
+
+Strength requirements
+
+Simulation-Based Decision Engine
+Evaluates multiple production scenarios and recommends the best operational strategy.
+
+**Demo of prototype**
+<img width="1907" height="846" alt="image" src="https://github.com/user-attachments/assets/14502bf1-5fb7-4b3d-b162-fd87e80125ff" />
 
 
-## Project info
 
-**URL**: https://lovable.dev/projects/1aa90af7-aca5-4459-8744-2425134f238a
+**Technology Stack**
 
+Python
 
-**Use your preferred IDE**
+XGBoost
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Genetic Algorithm / NSGA-II
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Pandas / NumPy
 
-Follow these steps:
+Streamlit (Interactive Dashboard)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Key Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Accurate strength prediction (R² ≈ 0.97)
 
-# Step 3: Install the necessary dependencies.
-npm i
+Automated trade-off analysis
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Cost and time reduction insights
 
-**Edit a file directly in GitHub**
+Real-time parameter tuning
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Decision-support dashboard
 
-**Use GitHub Codespaces**
+Performance & Validation
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+High prediction accuracy verified using historical yard data
 
-## What technologies are used for this project?
+Optimization tested under multiple constraint scenarios
 
-This project is built with:
+Simulated production runs confirmed practical feasibility
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+System Workflow
 
+Input mix design and operational parameters
 
+Predict strength gain curve
+
+Apply multi-objective optimization
+
+Generate Pareto-optimal solutions
+
+Recommend best cycle strategy
+
+Installation
+git clone https://github.com/your-username/precast-cycle-optimization.git
+cd precast-cycle-optimization
+pip install -r requirements.txt
+streamlit run app.py
+Project Structure
+├── data/
+├── models/
+├── optimization/
+├── simulation/
+├── app.py
+├── requirements.txt
+└── README.md
+Future Scope
+
+Integration with IoT curing sensors
+
+Real-time yard data streaming
+
+Cloud deployment
+
+Reinforcement learning for adaptive scheduling
+
+Impact
+
+This solution enables:
+
+Faster project delivery
+
+Reduced operational cost
+
+Improved yard utilization
+
+Data-driven production planning
+
+Team
+
+Createchh 2026 Submission
+AI-Driven Optimization for Smart Infrastructure Production
