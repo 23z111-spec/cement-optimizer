@@ -60,6 +60,7 @@ Evaluates multiple production scenarios and recommends the best operational stra
 <img width="1907" height="846" alt="image" src="https://github.com/user-attachments/assets/14502bf1-5fb7-4b3d-b162-fd87e80125ff" />
 
 
+<img width="1893" height="830" alt="image" src="https://github.com/user-attachments/assets/be93cf81-98f8-46f7-be82-28fa2c10939a" />
 
 **Technology Stack**
 
