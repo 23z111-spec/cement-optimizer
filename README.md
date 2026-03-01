@@ -74,8 +74,7 @@ Pandas / NumPy
 
 Streamlit (Interactive Dashboard)
 
-Key Features
-
+**Key Features**
 Accurate strength prediction (R² ≈ 0.97)
 
 Automated trade-off analysis
@@ -94,7 +93,7 @@ Optimization tested under multiple constraint scenarios
 
 Simulated production runs confirmed practical feasibility
 
-System Workflow
+**System Workflow**
 
 Input mix design and operational parameters
 
@@ -106,7 +105,7 @@ Generate Pareto-optimal solutions
 
 Recommend best cycle strategy
 
-Installation
+**Installation**
 git clone https://github.com/your-username/precast-cycle-optimization.git
 cd precast-cycle-optimization
 pip install -r requirements.txt
@@ -129,7 +128,7 @@ Cloud deployment
 
 Reinforcement learning for adaptive scheduling
 
-Impact
+**Impact**
 
 This solution enables:
 
@@ -141,7 +140,6 @@ Improved yard utilization
 
 Data-driven production planning
 
-Team
-
-Createchh 2026 Submission
+**Team**
+Createch 2026 Submission
 AI-Driven Optimization for Smart Infrastructure Production
