@@ -19,21 +19,9 @@ It enables yard managers to reduce cost, minimize cycle time, and maintain requi
 
 In precast production, element cycle time (casting → curing → demoulding → reset) directly impacts:
 
-Yard capacity
+Yard capacity, Project timeline, Production cost
 
-Project timeline
-
-Production cost
-
-Delays occur due to:
-
-Strength gain uncertainty
-
-Curing variations
-
-Mix design differences
-
-Operational constraints
+Delays occur due to: Strength gain uncertainty, Curing variations, Mix design differences, Operational constraints
 
 An intelligent system is required to predict strength gain and optimize production decisions.
 
@@ -47,11 +35,7 @@ The framework combines:
 **Multi-Objective Optimization (Genetic Algorithm / NSGA-II)**
 Identifies optimal trade-offs between:
 
-Cycle time
-
-Cost
-
-Strength requirements
+Cycle time, Cost, Strength requirements
 
 Simulation-Based Decision Engine
 Evaluates multiple production scenarios and recommends the best operational strategy.
